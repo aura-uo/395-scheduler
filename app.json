@@ -26,6 +26,7 @@
       }
     },
     "web": {
+      "name": "Scheduler",
       "favicon": "./assets/favicon.png"
     }
   }
