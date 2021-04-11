@@ -6,7 +6,7 @@ const getCourseNumber = course => (
 );
   
 const Course = ({course, isDisabled, isSelected, select, view}) => (
-<TouchableOpacity style={styles[isSelected ? 'courseButtonSelected' : isDisabled ? 'courseButtonDisabled' :'courseButton']}
+<TouchableOpacity style={styles[isSelected ? 'courseButtonSelected' : isDisabled ? 'courseButtonDisable' :'courseButton']}
     onPress={ () => { if (!isDisabled) select(course); }}
     onLongPress={() => view(course)}>
     <Text style = {styles.courseText}>
